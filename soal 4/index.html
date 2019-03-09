@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function hitungKembalian(jumlahuang, totalbelanja) {
+            let kembalian = parseInt(jumlahuang) - parseInt(totalbelanja),
+                hitungankembalian = kembalian,
+                hasil,
+                stokkembalian = [50000, 20000, 10000, 5000, 2000, 1000, 500],
+                max = stokkembalian.length,
+                x = 0,
+                hasilakhir = [];
+            while (hitungankembalian) {
+                // if (kembalian >= stokkembalian[x] && stokkembalian[x] - kembalian !== 0) {
+                if (hitungankembalian - stokkembalian[x] >= 0) {
+                    hitungankembalian -= stokkembalian[x];
+                    hasilakhir.push(stokkembalian[x]);
+                } else {
+                    x++;
+                }
+            }
+            document.getElementById('t').innerHTML = hasilakhir;
+        }
+
+        window.onload = e => {
+            hitungKembalian(50000, 5000);
+        }
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="t"></div>
+</body>
+</html>

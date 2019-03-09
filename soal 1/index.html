@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function bio() {
+            let name = 'eric',
+                address = 'jl apel',
+                hobbies = ['makan', 'tidur'],
+                is_married = false,
+                school = {
+                    highschool: "immanuel",
+                    university: "binus"
+                },
+                skills = [
+                    {name: 'php', level: 'intermediate'},
+                    {name: 'js', level: 'advanced'}
+                ];
+            return {
+                name: name,
+                address: address,
+                hobbies: hobbies,
+                is_married: is_married,
+                school: school,
+                skills: skills
+            }
+        }
+
+        window.onload = () => {
+            document.getElementById('asd').innerHTML = JSON.stringify(bio())
+        }
+    </script>
+</head>
+<body>
+<div id="asd"></div>
+</body>
+</html>

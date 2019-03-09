@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function drawImage(length) {
+            let box = document.getElementById('t');
+            let totalLength = length;
+
+            let i = Math.floor(length / 2);
+            let x = 1;
+
+            let star = '<span>=</span>';
+            let ad = '<span>@</span>';
+
+            let currentLength = 0;
+
+            while (currentLength !== totalLength) {
+                currentLength++;
+                let adLength = totalLength - i * 2;
+                let div = document.createElement('div');
+                div.innerHTML = star.repeat(i) + ad.repeat(adLength) + star.repeat(i);
+                box.append(div);
+                if (i) {
+                    i -= x;
+                } else {
+                    x *= -1;
+                    i = 1;
+                }
+            }
+        }
+        window.onload = e=>{
+            drawImage(5)
+        }
+    </script>
+    <style>
+        span{
+            text-align: center;
+            width: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div id="t"></div>
+</body>
+</html>

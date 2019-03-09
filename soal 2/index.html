@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function isPasswordValid(password) {
+            return password && password.length < 9 && !/[A-Z]/.test(password) ? true : false;
+        }
+
+        window.onload = e => {
+            document.getElementById('t').innerHTML = `pass = ‘tgby7654’ => ${isPasswordValid('tgby7654')}`;
+            document.getElementById('e').innerHTML = `pass = ‘iuoiuuUU’ => ${isPasswordValid('iuoiuuU')}`
+        }
+    </script>
+</head>
+<body>
+<div id="t"></div>
+<div id="e"></div>
+</body>
+</html>
