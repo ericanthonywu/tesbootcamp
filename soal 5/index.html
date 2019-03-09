@@ -6,26 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-        function hitungKembalian(jumlahuang, totalbelanja) {
-            let kembalian = parseInt(jumlahuang) - parseInt(totalbelanja);
-            let hitungankembalian = kembalian;
+        function hitungParkir(jam) {
             let hasil;
-            let stokkembalian = [50000, 20000, 10000, 5000, 2000, 1000, 500];
-            let max = stokkembalian.length;
-            let x = 0;
-            while(hitungankembalian) {
-                // if (kembalian >= stokkembalian[x] && stokkembalian[x] - kembalian !== 0) {
-                if(hitungankembalian - stokkembalian[x] >= 0){
-                    hitungankembalian -= stokkembalian[x];
-                    console.log(stokkembalian[x] + ' | ');
-                }else{
-                    x++;
-                }
+            if (jam <= 2) {
+                hasil = 2000
+            } else if (jam >= 10) {
+                hasil = 10000
+            } else {
+                hasil = parseInt(jam) * 1000;
             }
+            document.getElementById('t').append(hasil+'\n');
         }
-
         window.onload = e => {
-            hitungKembalian(50000, 5000);
+            hitungParkir(1);
+            hitungParkir(5);
+            hitungParkir(10);
         }
     </script>
     <style>
