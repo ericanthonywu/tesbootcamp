@@ -7,17 +7,20 @@
     <title>Document</title>
     <script>
         function drawImage(length) {
+            //definisikan tabel dan total
             let box = document.getElementById('t');
             let totalLength = length;
 
+            //jumlah bintang
             let i = Math.floor(length / 2);
             let x = 1;
 
+            //content
             let star = '<span>=</span>';
             let ad = '<span>@</span>';
 
             let currentLength = 0;
-
+            //looping
             while (currentLength !== totalLength) {
                 currentLength++;
                 let adLength = totalLength - i * 2;
@@ -32,12 +35,13 @@
                 }
             }
         }
-        window.onload = e=>{
+
+        window.onload = e => {
             drawImage(5)
         }
     </script>
     <style>
-        span{
+        span {
             text-align: center;
             width: 20px;
             display: inline-block;

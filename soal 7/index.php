@@ -16,11 +16,11 @@
         <div class="table-responsive">
             <table class="table table-striped table-bordered nowrap" id="tbl">
                 <thead>
-                    <tr>
-                        <td>Id</td>
-                        <td>Category Name</td>
-                        <td>Products</td>
-                    </tr>
+                <tr>
+                    <td>Id</td>
+                    <td>Category Name</td>
+                    <td>Products</td>
+                </tr>
                 </thead>
             </table>
         </div>

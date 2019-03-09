@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1e94856-e752-4a64-ac1e-0a1d1d1e1515" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soal 1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soal 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soal 3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soal 4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soal 5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/soal 5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 7/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/soal 7/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soal 7/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/soal 7/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,26 +61,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/soal 5/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soal 4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -94,16 +80,18 @@
         <option value="$PROJECT_DIR$/soal 1/index.php" />
         <option value="$PROJECT_DIR$/soal 2/index.php" />
         <option value="$PROJECT_DIR$/soal 3/index.php" />
-        <option value="$PROJECT_DIR$/soal 3/index.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/soal 6/sql.txt" />
         <option value="$PROJECT_DIR$/soal 6/innerjoin.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c71366d9-348f-451b-83ea-7d7569df00da/console.sql" />
-        <option value="$PROJECT_DIR$/soal 7/data.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/soal 1/index.html" />
+        <option value="$PROJECT_DIR$/soal 2/index.html" />
         <option value="$PROJECT_DIR$/soal 4/index.html" />
-        <option value="$PROJECT_DIR$/soal 7/index.php" />
+        <option value="$PROJECT_DIR$/soal 3/index.html" />
         <option value="$PROJECT_DIR$/soal 5/index.html" />
+        <option value="$PROJECT_DIR$/soal 7/data.php" />
+        <option value="$PROJECT_DIR$/soal 7/index.php" />
       </list>
     </option>
   </component>
@@ -206,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552127173749</updated>
-      <workItem from="1552127175309" duration="12573000" />
+      <workItem from="1552127175309" duration="13013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12573000" />
+    <option name="totallyTimeSpent" value="13013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,7 +212,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -232,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.58756137" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.28641573" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,34 +239,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/soal 2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soal 1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soal 3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="49" selection-end-column="7" />
-          <folding>
-            <element signature="n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -304,53 +267,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soal 6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soal 7/tesbootcamp.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1233" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soal 7/data.php">
+    <entry file="file://$PROJECT_DIR$/soal 1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="153">
+          <caret line="17" column="18" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soal 7/index.php">
+    <entry file="file://$PROJECT_DIR$/soal 2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soal 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="27" selection-end-line="53" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/soal 4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="12" column="22" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soal 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="38" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soal 7/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="32" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soal 7/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="74" column="26" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soal 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-end-column="159" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="24" selection-end-line="24" selection-end-column="7" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soal 5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>

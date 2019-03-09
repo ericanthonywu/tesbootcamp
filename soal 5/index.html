@@ -8,15 +8,19 @@
     <script>
         function hitungParkir(jam) {
             let hasil;
+            //min
             if (jam <= 2) {
                 hasil = 2000
+                //max
             } else if (jam >= 10) {
                 hasil = 10000
             } else {
+                //tengah
                 hasil = parseInt(jam) * 1000;
             }
-            document.getElementById('t').append(hasil+'\n');
+            document.getElementById('t').append(hasil + '\n');
         }
+
         window.onload = e => {
             hitungParkir(1);
             hitungParkir(5);
